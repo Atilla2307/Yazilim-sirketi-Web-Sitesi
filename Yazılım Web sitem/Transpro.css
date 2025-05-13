@@ -1,0 +1,569 @@
+.container{
+    max-height: 0px;
+}
+
+.arkaplan {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-topher {
+    position: absolute;
+    top: 4.5%;
+    left: 50%;
+    width: 1260px;
+    height: 60px;
+    z-index: 1;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 20px 1px rgb(187, 119, 63);
+    padding: 0;
+    margin: 0;
+}
+
+.media-text{
+    margin-left: 70px; 
+}
+
+.media-photo{
+    margin-left: 7px;
+}
+
+.photo{
+    margin-left: 10px;
+}
+.row a {
+    position: relative;
+    z-index: 1;
+}
+
+.row ul li a,p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+}
+
+.row .yerFoto{
+    margin-left: 15px;
+}
+
+nav ul li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 17px; 
+    margin-right: 25px;
+}
+
+.yerFoto, .mailFoto, .saatFoto {
+    margin-right: 10px; 
+}
+
+.row {
+    position: relative; 
+}
+
+nav ul li::after {
+    position:relative;
+    content: "";
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    height: 17px;
+    border-right: 1px dashed #ffffff; 
+}
+
+.language{
+    padding-left: 80px;
+}
+
+.row ul li:last-child::after,
+.row ul li:nth-child(3)::after {
+    content: none; 
+}
+
+.row ul li:last-child::after,
+.row ul li:nth-child(4)::after {
+    content: none; 
+}
+
+.logo{
+    position: relative;
+    bottom: 145px;
+    right: 55px;
+}
+
+.menu ul li a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu{
+    position: relative;
+    bottom: 370px;
+    left: 450px;
+}
+ 
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.menu li {
+    display: inline-block;
+}
+  
+.menu a {
+    text-decoration: none;
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 1;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+  
+.menu a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(194, 185, 185, 0.2);
+    border-radius: 5px;
+    z-index: -1;
+    transition: opacity 0.2s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+  
+.menu a:hover::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+  
+.menu a:hover {
+    color: rgb(231, 88, 4);
+} 
+
+.head-mid-text{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    bottom: 240px;
+    z-index: 2;
+    text-align: center;
+}
+
+
+.truck{
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+}
+
+.baslik{
+    color: rgb(0, 0, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 120px;
+    right: 850px;
+}
+
+.icerik{
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    right: 110px;
+}
+
+.foto1{
+    position: relative;
+    top: 250px;
+}
+
+.foto1 img{
+    border-radius: 15px;
+    width: 480px;
+}
+
+.foto2{
+    position: relative;
+    left: 490px;
+    bottom: 180px;
+}
+
+.foto2 img{
+    border-radius: 15px;
+    width: 480px;
+}
+
+.ayrı-p{
+    
+    color: rgb(0, 0, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+}
+
+.ayrı-pre{
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 390px;
+    bottom: 150px;
+}
+
+
+
+.p-1{
+    color: rgb(0, 0, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+.pre-1{
+    color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    right: 85px;
+    bottom: 55px;
+}
+
+
+
+.yan{
+    position: relative;
+    left: 1300px;
+    top: 190px;
+    height: 700px;
+    border: 1px solid rgb(209, 209, 209);
+    width: 350px;
+    border-radius: 12px;
+}
+
+.ust{
+    background-color: rgb(248, 248, 248);
+    position: relative;
+    top: 20px;
+    left: 25px;
+    width: 300px;
+    height: 370px;
+    border-radius: 12px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.alt{
+    position: relative;
+    top: 70px;
+    left: 25px;
+    width: 300px;
+    height: 240px;
+    border-radius: 12px;
+}
+
+.resim{
+    width: 75px;
+}
+
+.ust-baslik{
+    color: rgb(0, 0, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+
+.resim1{
+    position: relative;
+    top: 65px;
+    right: 140px;
+}
+
+.resim2{
+    position: relative;
+    top: 65px;
+    left: 20px;
+}
+
+.resim3{
+    position: relative;
+    top: 170px;
+    right: 170px;
+}
+
+.web-sitesi{
+    color: rgb(5, 0, 70);
+    position: relative;
+    left: 104px;
+    font-size: 22px;
+
+}
+
+.trns-link{
+    position: relative;
+    top: 30px;
+    right: 5px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 19px;
+}
+
+.ulke{
+    color: rgb(5, 0, 70);
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 22px;
+}
+
+.turkiye{
+    position: relative;
+    top: 50px;
+    right: 17px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 19px;
+}
+
+.pys-tarih{
+    color: rgb(5, 0, 70);
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: 22px;;
+}
+
+.tarih{
+    position: relative;
+    top: 110px;
+    left: 100px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 19px;
+}
+
+.alt-image img{
+    width: 300px;
+    border-radius: 12px;
+}
+
+.alt .phone{
+    position: relative;
+    bottom: 130px;
+    left: -100px;
+    width: 50px;
+}
+
+.Profesyonel{
+    position: relative;
+    bottom: 200px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.telefon{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    right: -30px;
+    bottom:120px ;
+}
+
+.mavi-iletisim{
+    background-color: #0a034e;
+    position: relative;
+    top: 285px;
+    width: 100%;
+    height: 300px;
+}
+
+.mavi-iletisim img{
+    top: 35%;
+    width: 90px;
+    position: relative;
+    left: 200px;
+}
+
+
+.mavi-iletisim{
+    position: relative;
+    display: grid;
+    grid:10px;
+    grid-template: auto/repeat(3, 1fr);
+    grid-template-areas: "A B C";
+}
+
+
+.mavi-iletisim a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 175px;
+    top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.mavi-iletisim p{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.iletisim-telefon{
+    grid-area: A;
+}
+
+.iletisim-mail{
+    position: relative;
+    right: 50px;
+    grid-area: B;
+}
+
+.iletisim-konum{
+    position: relative;
+    right: 100px;
+    grid-area: C;
+}
+
+.iletisim-telefon p{
+    position: relative;
+    left: 240px;
+}
+
+.footer{
+    position: relative;
+    bottom: 700px;
+}
+
+.son{
+    background-color: #060029;
+    position: relative;
+    display: grid;
+    grid:10px;
+    grid-template: auto/repeat(3, 1fr);
+    grid-template-areas: 
+                        "A B C";
+}
+
+.div1{
+    grid-area: A;
+}
+
+.div2{
+    grid-area: B;
+    position: relative;
+    left:280px;
+}
+
+.div3{
+    grid-area: C;
+    position: relative;
+    left: 190px;
+}
+
+.son img{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.son-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    bottom: 250px;
+    left: 180px;
+    position: relative;
+}
+
+.div2 a{
+    text-decoration: none;
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.div3 a{
+    text-decoration: none;
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.div2 span ,.div3 span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 120px;
+}
+
+.div2 a:hover{
+    transition: 0.4ms all ease-in;
+    left: 13px;
+    position: relative;background:
+    #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.div3 a:hover{
+    transition: 0.4ms all ease-in;
+    left: 13px;
+    position: relative;background:
+    #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.main{
+    height: 2200px;
+}
